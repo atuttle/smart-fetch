@@ -1,4 +1,7 @@
 # smart-fetch
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Based heavily on [this blog post by Kent C. Dodds][blog]; smart-fetch is a wrapper for [isomorphic-fetch][iso] that adds a few features to make it do the smart thing by default, and a bit more.
 
@@ -65,3 +68,22 @@ isomorphic-fetch, which does the majority of the work, is released under the MIT
 [iso]: https://github.com/matthew-andrews/isomorphic-fetch
 [ac]: https://github.com/mysticatea/abort-controller
 [debug]: https://github.com/visionmedia/debug
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://adamtuttle.codes"><img src="https://avatars2.githubusercontent.com/u/46990?v=4" width="100px;" alt=""/><br /><sub><b>Adam Tuttle</b></sub></a><br /><a href="https://github.com/atuttle/smart-fetch/commits?author=atuttle" title="Code">💻</a> <a href="https://github.com/atuttle/smart-fetch/commits?author=atuttle" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
