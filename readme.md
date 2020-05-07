@@ -48,7 +48,7 @@ const myApi = wrapFetch('https://api.example.com', {
 		apikey: 'keyboard-cat'
 	}
 });
-const data = await myApi('/foo/bar', { timeout: 500 });
+const data = await myApi('/foo/bar', { timeout: 5000 });
 ```
 
 Here we've created a simple api client for an api at api.example.com, that will include an apikey header and use a 10 second timeout for every request... unless you override them at the time of the request. The request that follows overrides the timeout to 5 seconds, but still inherits the default apikey.
