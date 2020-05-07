@@ -1,0 +1,43 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": ["prettier"],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": ["prettier"],
+	"rules": {
+		"linebreak-style": ["error", "unix"],
+		"no-cond-assign": ["error", "always"],
+		"curly": ["error", "all"],
+		"default-case": ["error"],
+		"eqeqeq": "error",
+		"no-fallthrough": "off",
+		"yoda": "error",
+		"brace-style": [
+			"error",
+			"1tbs",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"eol-last": ["error", "always"],
+		"no-trailing-spaces": ["error"],
+		"arrow-spacing": [
+			"error",
+			{
+				"before": true,
+				"after": true
+			}
+		]
+	}
+}
