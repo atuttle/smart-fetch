@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "atuttle",
+      "name": "Adam Tuttle",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46990?v=4",
+      "profile": "http://adamtuttle.codes",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "smart-fetch",
+  "projectOwner": "atuttle",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
