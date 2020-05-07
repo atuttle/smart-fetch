@@ -26,34 +26,28 @@ I did not incorporate Kent's suggestion to bake in Bearer token headers using a 
 
 # Usage
 
-```
+```js
 const { fetch } = require('smart-fetch');
 
-const data = await fetch(
-	'https://api.example.com/foo/bar',
-	{
-		timeout: 5000, //ms
-		headers: {
-			apikey: 'keyboard-cat'
-		}
+const data = await fetch('https://api.example.com/foo/bar', {
+	timeout: 5000, //ms
+	headers: {
+		apikey: 'keyboard-cat'
 	}
-);
+});
 ```
 
 Because there is no request body, the request method will be GET. If the api responds with JSON, you get the parsed JSON object back, else you get the response body back as plain text.
 
-```
+```js
 const { wrapFetch } = require('smart-fetch');
 
-const myApi = wrapFetch(
-	'https://api.example.com',
-	{
-		timeout: 10000, //ms
-		headers: {
-			apikey: 'keyboard-cat'
-		}
+const myApi = wrapFetch('https://api.example.com', {
+	timeout: 10000, //ms
+	headers: {
+		apikey: 'keyboard-cat'
 	}
-);
+});
 const data = await myApi('/foo/bar', { timeout: 500 });
 ```
 
