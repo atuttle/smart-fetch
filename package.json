@@ -1,5 +1,5 @@
 {
-  "name": "smart-fetch",
+  "name": "@atuttle/smart-fetch",
   "version": "1.0.0",
   "description": "isomorphic fetch w/smart defaults, timeout support, and easy micro-api-client generation",
   "main": "smart-fetch.js",
