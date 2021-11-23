@@ -1,26 +1,29 @@
 {
-  "name": "@atuttle/smart-fetch",
-  "version": "2.0.0",
-  "description": "isomorphic fetch w/smart defaults, timeout support, and easy micro-api-client generation",
-  "main": "smart-fetch.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Adam Tuttle <https://github.com/atuttle/>",
-  "license": "MIT",
-  "dependencies": {
-    "abort-controller": "^3.0.0",
-    "debug": "^4.1.1",
-    "isomorphic-fetch": "^3.0.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atuttle/smart-fetch.git"
-  },
-  "bugs": {
-    "url": "https://github.com/atuttle/smart-fetch/issues"
-  },
-  "homepage": "https://github.com/atuttle/smart-fetch#readme"
+	"name": "@atuttle/smart-fetch",
+	"version": "2.0.0",
+	"description": "isomorphic fetch w/smart defaults, timeout support, and easy micro-api-client generation",
+	"main": "smart-fetch.js",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"keywords": [],
+	"author": "Adam Tuttle <https://github.com/atuttle/>",
+	"license": "MIT",
+	"dependencies": {
+		"abort-controller": "^3.0.0",
+		"debug": "^4.1.1",
+		"isomorphic-fetch": "^3.0.0"
+	},
+	"devDependencies": {
+		"jest": "^27.3.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/atuttle/smart-fetch.git"
+	},
+	"bugs": {
+		"url": "https://github.com/atuttle/smart-fetch/issues"
+	},
+	"homepage": "https://github.com/atuttle/smart-fetch#readme"
 }
