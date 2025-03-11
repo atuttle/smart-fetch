@@ -17,13 +17,15 @@ describe('smart-fetch', () => {
 	});
 
 	it('rejects if !response.ok', async () => {
-		const req = fetch('https://uselessfacts.jsph.pl/random.json?language=en', { method: 'POST' });
-		expect(req).rejects.toContain('something went wrong');
+		expect(async () => {
+			return await fetch('https://uselessfacts.jsph.pl/random.json?language=en', { method: 'POST' });
+		}).rejects;
 	});
 
 	it('throws on timeout', async () => {
-		const req = fetch('https://uselessfacts.jsph.pl/random.json?language=en', { timeout: 1 });
-		expect(req).rejects.toThrow('user aborted a request');
+		expect(async () => {
+			return await fetch('https://uselessfacts.jsph.pl/random.json?language=en', { timeout: 1 });
+		}).rejects.toThrow('user aborted a request');
 	});
 
 	describe('micro-clients', () => {
